@@ -1,0 +1,26 @@
+{
+  "name": "python-sandbox",
+  "mode": "ONCE",
+  "time_limit": 5,
+  "disable_no_new_privs": true,
+  "max_cpus": 1,
+  "clone_newnet": false,
+  "clone_newpid": false,
+  "clone_newns": false,
+  "clone_newipc": false,
+  "clone_newuts": false,
+  "clone_newcgroup": false,
+  "clone_newuser": false,
+  "keep_caps": false,
+  "mount": [
+    {
+      "src": "/sandbox",
+      "dst": "/sandbox",
+      "is_bind": true,
+      "rw": true
+    }
+  ],
+  "exec_bin": {
+    "path": "/usr/local/bin/python3"
+  }
+}
