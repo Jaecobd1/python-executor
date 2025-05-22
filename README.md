@@ -67,6 +67,10 @@ Error (400/500):
 
 ### Examples
 
+#### Example Request
+
+![Example Request](Example%20Request.png)
+
 #### Using curl
 
 ```bash
